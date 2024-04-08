@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nested_nav_graph"
+    app:startDestination="@id/fragment_menu">
+
+    <fragment
+        android:id="@id/fragment_menu"
+        android:name="com.example.gosporttest.ui.menu.MenuFragment"
+        android:label="FragmentMenu"/>
+
+    <fragment
+        android:id="@id/fragment_profile"
+        android:name="com.example.gosporttest.ui.profile.ProfileFragment"
+        android:label="FragmentProfile"/>
+
+    <fragment
+        android:id="@id/fragment_cart"
+        android:name="com.example.gosporttest.ui.cart.CartFragment"
+        android:label="FragmentCart"/>
+
+</navigation>

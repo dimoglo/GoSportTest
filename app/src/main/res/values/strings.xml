@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">GoSportTest</string>
+    <string name="menu">Меню</string>
+    <string name="account">Профиль</string>
+    <string name="cart">Корзина</string>
+</resources>
