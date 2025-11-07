@@ -5,6 +5,7 @@ import androidx.test.ext.junit.runners.AndroidJUnit4
 
 import org.junit.Test
 import org.junit.runner.RunWith
+import org.junit.Assert.*
 
 import org.junit.Assert.*
 
@@ -20,5 +21,12 @@ class ExampleInstrumentedTest {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
         assertEquals("com.example.gosporttest", appContext.packageName)
+    }
+
+    class ExampleUnitTest {
+        @Test
+        fun addition_isCorrect() {
+            assertEquals(4, 2 + 2)
+        }
     }
 }
