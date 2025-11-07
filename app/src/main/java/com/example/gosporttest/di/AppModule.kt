@@ -23,7 +23,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Singleton
 import kotlin.reflect.KClass
 
-@Module()
+@Module
 @InstallIn(SingletonComponent::class)
 object AppModule {
 
